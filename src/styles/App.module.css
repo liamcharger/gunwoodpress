@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+  background-color: #151515;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  /* border-bottom: solid 1px #2b2b2b; */
+}
+
+header img {
+  max-height: 45px;
+  max-width: 90%;
+  /* TODO: add a min */
+}
+
+header .btnPrimary {
+  all: unset;
+  padding: 12px;
+  margin-left: 14px;
+  background-color: rgb(228, 76, 30);
+  color: rgb(255, 240, 221);
+  transition: 0.3s;
+}
+
+header .btnPrimary:hover {
+  cursor: pointer;
+  background-color: rgb(193, 56, 14);
+}
+
+header .btnSecondary {
+  all: unset;
+  padding: 10px;
+  margin-left: 14px;
+  border: solid 2px rgb(255, 240, 221);
+  color: rgb(255, 240, 221);
+  transition: 0.3s;
+}
+
+header .btnSecondary:hover {
+  cursor: pointer;
+  color: #1a1b1f;
+  background-color: rgb(255, 240, 221);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.hero {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.hero h1 {
+  margin: 0 0 16px 0;
+}
+
+.hero img {
+  max-height: 120px;
+  max-width: 90%;
+  margin-bottom: 15px;
+}
+
+.text {
+  line-height: 1.4;
+  padding: 12px;
+  border-radius: 15px;
+  border: solid 1px #2b2b2b;
+  background-color: #222222;
+  color: #d2d2d2;
+  max-width: 700px;
+}
+
+footer {
+  border-top: solid 1px #2b2b2b;
+  padding: 16px;
+  font-size: 10pt;
+  text-align: center;
+  color: #d2d2d2;
+}
+
+.spacer {
+  flex: 1;
+}
