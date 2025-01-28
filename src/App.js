@@ -6,7 +6,8 @@ function App() {
   return (
     <div className={styles.app}>
     <header>
-    <img src={logoStacked} alt="Logo"></img>
+    {/* We don't want to show a logo when it's already in the body */}
+    {/* <img src={logoStacked} alt="Logo"></img> */}
     <div className={styles.spacer}></div>
     {/* A href causes a page refresh; we may want to use a button */}
     <a href="/books" className={styles.btnSecondary}>Our Books</a>
